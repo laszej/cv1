@@ -1,0 +1,104 @@
+/* Resetowanie podstawowych stylów przeglądarki */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.cv-container {
+    width: 70vw;
+    max-width: 1100px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile-photo-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.profile-photo {
+    width: 20vw;
+    max-width: 200px;
+    height: 20vw;
+    max-height: 200px;
+    border-radius: 5%;
+}
+
+.header-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-name {
+    font-size: 2em;
+    margin-bottom: 10px;
+   
+}
+
+.header-email {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.header-email img {
+    margin-right: 5px;
+}
+
+h1 {
+    margin-top: 0; /* Usunięcie domyślnego marginesu dla h1 */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.experience, .education, .additional-activities {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
